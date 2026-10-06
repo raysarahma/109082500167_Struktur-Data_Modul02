@@ -182,7 +182,7 @@ penjelasan singkat guided 5 : Pada tukarValue (pass by value), fungsi cuma mener
 
 ## Unguided
 
-### 1. (isi dengan soal unguided 1)
+### 1. Buatlah program yang dapat melakukan operasi penjumlahan, pengurangan, dan perkalian matriks 3x3.
 
 ```C++
 #include <iostream>
@@ -278,7 +278,7 @@ int main() {
 
 penjelasan unguided 1 : Program ini menyiapkan matriks A dan B untuk input, lalu tiga matriks lain untuk menyimpan hasil penjumlahan, pengurangan, dan perkalian. Matriks A dan B diisi lewat for bersarang, satu untuk baris dan satu untuk kolom, sehingga elemennya diminta satu per satu dari baris pertama sampai terakhir. Setelah itu, penjumlahan dan pengurangan dihitung dengan menjumlah atau mengurangi elemen yang posisinya sama, sedangkan perkalian memakai satu perulangan tambahan untuk mengalikan baris matriks A dengan kolom matriks B lalu menjumlahkan hasilnya, dengan nilai awal 0 supaya tidak ada nilai sampah. Terakhir, semua matriks ditampilkan berurutan dengan judul masing-masing, memakai tab supaya kolomnya rapi dan baris baru supaya tiap baris matriks turun ke bawah.
 
-### 2. (isi dengan soal unguided 2)
+### 2. Berdasarkan guided pointer dan reference sebelumnya, buatlah keduanya dapat menukar nilai dari 3 variabel.
 
 ```C++
 #include <iostream>
@@ -324,7 +324,7 @@ int main() {
 
 penjelasan unguided 2 : Program ini punya dua fungsi untuk menukar tiga variabel dengan cara memutar nilainya, yaitu a diisi nilai b, b diisi nilai c, dan c diisi nilai a yang awal. Nilai a disimpan dulu ke variabel temp supaya tidak hilang tertimpa. Fungsi pertama memakai pointer, jadi saat dipanggil yang dikirim adalah alamat variabel dengan tanda &, dan di dalam fungsi nilainya diakses dengan tanda *. Fungsi kedua memakai reference, jadi cukup mengirim nama variabelnya karena parameternya memakai tanda & dan langsung terhubung ke variabel aslinya. Di main, a, b, dan c diisi 10, 20, 30, lalu kedua fungsi dipanggil berurutan dan hasilnya dicetak tiap tahap, yaitu 20 30 10 setelah pointer dan 30 10 20 setelah reference. Nilainya berubah di main karena kedua cara ini mengubah variabel aslinya, bukan salinan.
 
-### 3. (isi dengan soal unguided 3)
+### 3. Diketahui sebuah array 1 dimensi sebagai berikut : arrA = {48, 2, 7 , 21, 5, 20, 77, 9, 10, 1} Buatlah program yang dapat mencari nilai minimum, maksimum, dan rata – rata dari array tersebut! Kerjakan soal dengan ketentuan : - Untuk mencari nilai minimum dan maksimum, harus dibuat menjadi sebuah function. - Untuk mencari rata-rata harus dibuat menjadi sebuah procedure. - Buat output di fungsi utama (main) untuk menampilkan nilai rata-rata yang sudah didapatkan melalui procedure sebelumnya. (Gunakan metode pass by reference atau pass by pointer) - Buat menu sederhana untuk menjalankan setiap procedure
 
 ```C++
 #include <iostream>
@@ -412,7 +412,7 @@ penjelasan unguided 3 : Program ini menampilkan menu yang terus diulang sampai u
 Pada Modul 02 saya memahami bahwa array digunakan untuk menyimpan sekumpulan data dengan tipe yang sama, sedangkan pointer digunakan untuk menyimpan dan mengakses alamat memori. Fungsi dan prosedur membantu membagi program menjadi bagian-bagian yang lebih terstruktur. Perbedaan cara melewatkan parameter juga terlihat saat mengerjakan latihan, terutama antara call by value, pointer, dan reference. Pada latihan, konsep array dua dimensi diterapkan untuk operasi matriks, pointer dan reference diterapkan untuk menukar tiga variabel, sedangkan function dan procedure diterapkan untuk mencari nilai minimum, maksimum, dan rata-rata array. Dari pengerjaan tersebut, penggunaan struktur program menjadi lebih teratur karena setiap proses dibuat sesuai tugasnya.
 
 ## Referensi
-[1] Modul 02 Struktur Data. Pengenalan Bahasa C++ (Bagian Kedua). Materi praktikum: Array, Pointer, Fungsi, Prosedur, dan Parameter.
-[2] Hasanah, F. N. (2021). Pemahaman Konsep Pemrograman Melalui Modul Problem Based Learning. Edu Komputika Journal, 8(1). https://doi.org/10.15294/edukomputika.v8i1.45516
-[3] Hasanah, F. N., Wiguna, A., Shofiyah, N., & Handayani, N. F. (2024). Implementation of Project-Based Visual Programming Modules on Problem-Solving Skills Information Technology Education students to Support the SDG’s. Edu Komputika Journal, 11(1), 50–56. https://doi.org/10.15294/edukom.v11i1.10804
+[1] Modul 02 Struktur Data. Pengenalan Bahasa C++ (Bagian Kedua). Materi praktikum: Array, Pointer, Fungsi, Prosedur, dan Parameter.<br/>
+[2] Hasanah, F. N. (2021). Pemahaman Konsep Pemrograman Melalui Modul Problem Based Learning. Edu Komputika Journal, 8(1). https://doi.org/10.15294/edukomputika.v8i1.45516<br/>
+[3] Hasanah, F. N., Wiguna, A., Shofiyah, N., & Handayani, N. F. (2024). Implementation of Project-Based Visual Programming Modules on Problem-Solving Skills Information Technology Education students to Support the SDG’s. Edu Komputika Journal, 11(1), 50–56. https://doi.org/10.15294/edukom.v11i1.10804<br/>
 [4] Template-Laprak-Strukdat.pdf. Struktur laporan praktikum: Dasar Teori, Guided, Unguided, Kesimpulan, dan Referensi.
