@@ -270,14 +270,11 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
+![Screenshot Output Unguided 1_1](https://github.com/raysarahma/109082500167_Struktur-Data_Modul02/blob/main/output/soal01_output1.png)
 
 ##### Output 2
 
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 1_2](https://github.com/raysarahma/109082500167_Struktur-Data_Modul02/blob/main/output/soal01_output2.png)
 
 penjelasan unguided 1 : Program ini menyiapkan matriks A dan B untuk input, lalu tiga matriks lain untuk menyimpan hasil penjumlahan, pengurangan, dan perkalian. Matriks A dan B diisi lewat for bersarang, satu untuk baris dan satu untuk kolom, sehingga elemennya diminta satu per satu dari baris pertama sampai terakhir. Setelah itu, penjumlahan dan pengurangan dihitung dengan menjumlah atau mengurangi elemen yang posisinya sama, sedangkan perkalian memakai satu perulangan tambahan untuk mengalikan baris matriks A dengan kolom matriks B lalu menjumlahkan hasilnya, dengan nilai awal 0 supaya tidak ada nilai sampah. Terakhir, semua matriks ditampilkan berurutan dengan judul masing-masing, memakai tab supaya kolomnya rapi dan baris baru supaya tiap baris matriks turun ke bawah.
 
@@ -323,14 +320,7 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
-
-##### Output 2
-
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 2_1](https://github.com/raysarahma/109082500167_Struktur-Data_Modul02/blob/main/output/soal02.png)
 
 penjelasan unguided 2 : Program ini punya dua fungsi untuk menukar tiga variabel dengan cara memutar nilainya, yaitu a diisi nilai b, b diisi nilai c, dan c diisi nilai a yang awal. Nilai a disimpan dulu ke variabel temp supaya tidak hilang tertimpa. Fungsi pertama memakai pointer, jadi saat dipanggil yang dikirim adalah alamat variabel dengan tanda &, dan di dalam fungsi nilainya diakses dengan tanda *. Fungsi kedua memakai reference, jadi cukup mengirim nama variabelnya karena parameternya memakai tanda & dan langsung terhubung ke variabel aslinya. Di main, a, b, dan c diisi 10, 20, 30, lalu kedua fungsi dipanggil berurutan dan hasilnya dicetak tiap tahap, yaitu 20 30 10 setelah pointer dan 30 10 20 setelah reference. Nilainya berubah di main karena kedua cara ini mengubah variabel aslinya, bukan salinan.
 
@@ -413,14 +403,8 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
-
-##### Output 2
-
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 3_1](https://github.com/raysarahma/109082500167_Struktur-Data_Modul02/blob/main/output/soal03_output01.png)
+![Screenshot Output Unguided 3_1](https://github.com/raysarahma/109082500167_Struktur-Data_Modul02/blob/main/output/soal03_output1.png)
 
 penjelasan unguided 3 : Program ini menampilkan menu yang terus diulang sampai user memilih keluar. Nilai maksimum dan minimum dicari lewat function yang membandingkan semua elemen array dengan elemen pertama sebagai acuan, lalu hasilnya dikembalikan dengan return (77 dan 1). Rata-rata dihitung lewat procedure yang menjumlahkan semua elemen lalu membaginya dengan jumlah elemen, dan hasilnya (20) dikirim balik ke main memakai parameter reference supaya bisa ditampilkan di main.
 
