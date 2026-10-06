@@ -403,8 +403,8 @@ int main() {
 
 ##### Output 1
 
-![Screenshot Output Unguided 3_1](https://github.com/raysarahma/109082500167_Struktur-Data_Modul02/blob/main/output/soal03_output01.png)
 ![Screenshot Output Unguided 3_1](https://github.com/raysarahma/109082500167_Struktur-Data_Modul02/blob/main/output/soal03_output1.png)
+![Screenshot Output Unguided 3_1](https://github.com/raysarahma/109082500167_Struktur-Data_Modul02/blob/main/output/soal03_output01.png)
 
 penjelasan unguided 3 : Program ini menampilkan menu yang terus diulang sampai user memilih keluar. Nilai maksimum dan minimum dicari lewat function yang membandingkan semua elemen array dengan elemen pertama sebagai acuan, lalu hasilnya dikembalikan dengan return (77 dan 1). Rata-rata dihitung lewat procedure yang menjumlahkan semua elemen lalu membaginya dengan jumlah elemen, dan hasilnya (20) dikirim balik ke main memakai parameter reference supaya bisa ditampilkan di main.
 
